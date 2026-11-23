@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PreAim: live leaderboard</title>
+  <link rel="stylesheet" href="css/board.css">
+</head>
+<body>
+  <header>
+    <h1><span class="c">PRE</span><span class="m">AIM</span></h1>
+    <p class="sub">CROSSHAIR PLACEMENT LEADERBOARD</p>
+    <div class="meta"><span id="status" class="warn">CONNECTING...</span><span id="clock"></span></div>
+  </header>
+  <div id="flash" aria-live="polite"></div>
+  <main>
+    <section class="col day"><h2>TODAY</h2><ol id="day"></ol></section>
+    <section class="col all"><h2>ALL TIME</h2><ol id="all"></ol></section>
+  </main>
+  <footer>Play on the booth screen: 60 seconds, mouse only</footer>
+  <script type="module" src="js/board.js"></script>
+</body>
+</html>
