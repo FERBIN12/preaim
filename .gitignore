@@ -17,3 +17,8 @@ dist/
 .idea/dataSources.local.xml
 PLAN.md
 STATE.md
+video/
+*.png
+*.jpg
+*.gif
+*.mkv
